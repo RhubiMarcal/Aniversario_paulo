@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(134, 209, 209);
+    margin-bottom: 32px;
+}
+
+header .container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    margin: 16px 0;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+.textbox{
+    max-width: 50%;
+    width: 100%;
+    
+}
+
+.foto img {
+    max-height: 300px; 
+}
+
+.foto {
+    background-color: cadetblue;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.primeiro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.segundo{
+    background-color: cadetblue;
+    padding: 16px 0;
+    margin-top: 32px;
+}
+
+.segundo .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.segundo .foto{
+    background-color: white;
+}
+
+.segundo .textbox{
+    max-width: 484px;
+    line-height: 40px
+
+}
+.terceiro .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.terceiro h1{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+
+    background-color: cadetblue;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    line-height: 40px;
+    
+    
+}
+
+.card2{
+
+    background-color: cadetblue;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    line-height: 40px;
+}
+.quarto .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quarto img{
+    width: 80%;
+    padding: 32px;
+    
+}
+.quarto{
+    padding: 32px;
+    background-color: cadetblue;
+}
+.botao{
+    background-color: rgb(134, 209, 209);
+    padding: 16px 64px;
+    margin: 32px ;
+    width: max-content;
+    border-radius: 50px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.container_botao  {
+    display: flex;
+    justify-content: center;
+    height: 114px;
+}
+
+footer{
+    background-color:rgb(134, 209, 209);
+    padding: 16px;
+}
+
